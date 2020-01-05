@@ -51,7 +51,8 @@ class StudentsList extends React.Component {
     const newList = [...this.state.studentsList, newStudent]
     this.setState( prevState => (
       {
-        studentsList: newList
+        studentsList: newList,
+        formOpen: false
       }
     ))
   }
