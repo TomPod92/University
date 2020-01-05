@@ -1,0 +1,17 @@
+.overlay {
+  pointer-events: none;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  transition: all 0.5s ease-in-out;
+
+  &--visible { 
+      pointer-events: all;
+      opacity: 1;
+  }
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 61,
+        "date": "1978-03-22T09:39:44+00:00",
+        "wellMaintained": true,
+        "comments": "Qui eos architecto ea laborum adipisci ratione delectus porro et cumque temporibus aut velit voluptates omnis quia et voluptatem quia modi est minus dolorem odio.",
+        "place": {
+            "placeNumber": 88,
+            "rentrate": 657
+        },
+        "staff": {
+            "id": 70,
+            "name": "Loyce",
+            "surname": "Beatty",
+            "phone": 521352347,
+            "address": {
+                "id": 304,
+                "address": "4412 Webster Motorway\nEast Elaina, ME 24091"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        }
+    },
+    {
+        "id": 73,
+        "date": "1978-03-22T09:39:44+00:00",
+        "wellMaintained": true,
+        "comments": "Qui eos architecto ea laborum adipisci ratione delectus porro et cumque temporibus aut velit voluptates omnis quia et voluptatem quia modi est minus dolorem odio.",
+        "place": {
+            "placeNumber": 88,
+            "rentrate": 657
+        },
+        "staff": {
+            "id": 70,
+            "name": "Brad",
+            "surname": "Travesty",
+            "phone": 521352347,
+            "address": {
+                "id": 304,
+                "address": "4412 Webster Motorway\nEast Elaina, ME 24091"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        }
+    },
+    {
+        "id": 42,
+        "date": "1978-03-22T09:39:44+00:00",
+        "wellMaintained": true,
+        "comments": "Qui eos architecto ea laborum adipisci ratione delectus porro et cumque temporibus aut velit voluptates omnis quia et voluptatem quia modi est minus dolorem odio.",
+        "place": {
+            "placeNumber": 88,
+            "rentrate": 657
+        },
+        "staff": {
+            "id": 70,
+            "name": "Mark",
+            "surname": "Green",
+            "phone": 521352347,
+            "address": {
+                "id": 304,
+                "address": "4412 Webster Motorway\nEast Elaina, ME 24091"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        }
+    }
+]

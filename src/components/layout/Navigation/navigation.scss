@@ -1,0 +1,38 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+  max-width: 50rem;
+  height: 100vh;
+  padding: 1rem 0;
+  background-color: var(--color-background--opacity);
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.35);;
+  z-index: 4;
+  transform: translateX(-110%);
+  transition: transform 0.5s ease-in-out;
+
+  &--open { transform: translateX(0); }
+
+  &__item,
+  &__item:active {
+    padding: 0.7rem 1.4rem 0.7rem 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, var(--color-primary) 1.5rem, var(--color-background) 1.5rem);
+    z-index: 5;
+  }
+
+  &__item:hover,
+  &__item.active {
+      color: var(--color-background);
+      background: linear-gradient(to right, var(--color-primary) 100%, var(--color-primary) 100%);
+  }
+}

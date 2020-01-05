@@ -1,0 +1,65 @@
+[
+    {
+        "id": 196,
+        "name": "Chelsey",
+        "surname": "White",
+        "advisor": {
+            "id": 70,
+            "name": "Loyce",
+            "surname": "Beatty",
+            "phone": 521352347,
+            "address": {
+                "id": 304,
+                "address": "4412 Webster Motorway\nEast Elaina, ME 24091"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        },
+        "category": {
+            "id": 68,
+            "name": "Student Category animi"
+        },
+        "course": {
+            "id": 69,
+            "name": "Course voluptatibus"
+        },
+        "status": {
+            "id": 70,
+            "name": "Status ex"
+        }
+    },
+    {
+        "id": 200,
+        "name": "Chelsey",
+        "surname": "White",
+        "advisor": {
+            "id": 70,
+            "name": "Loyce",
+            "surname": "Beatty",
+            "phone": 521352347,
+            "address": {
+                "id": 304,
+                "address": "4412 Webster Motorway\nEast Elaina, ME 24091"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        },
+        "category": {
+            "id": 68,
+            "name": "Student Category animi"
+        },
+        "course": {
+            "id": 69,
+            "name": "Course voluptatibus"
+        },
+        "status": {
+            "id": 70,
+            "name": "Status ex"
+        }
+    }
+]
+

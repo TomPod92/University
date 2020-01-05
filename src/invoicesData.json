@@ -1,0 +1,170 @@
+[
+  {
+    "id": 401,
+    "semester": 7,
+    "paymentDue": "1983-02-21T20:39:36+00:00",
+    "paymentDate": "1984-09-27T15:27:10+00:00",
+    "secondReminderDate": "1986-12-19T11:35:00+00:00",
+    "lease": {
+        "id": 405,
+        "duration": 299,
+        "start": "2011-11-21T21:03:32+00:00",
+        "end": "1991-03-30T19:02:29+00:00",
+        "facility": {
+            "id": 321,
+            "address": "370 Judy Club Apt. 089\nPort Deron, MO 42055"
+        },
+        "room": {
+            "placeNumber": 86,
+            "rentrate": 893
+        },
+        "student": {
+            "id": 201,
+            "name": "Rosie",
+            "surname": "Waters",
+            "advisor": {
+                "id": 66,
+                "name": "Graham",
+                "surname": "Mertz",
+                "phone": 799977877,
+                "address": {
+                    "id": 302,
+                    "address": "47936 Wisoky Summit Apt. 661\nNorth Miltonville, AZ 85724"
+                },
+                "role": {
+                    "id": 66,
+                    "name": "Role consequuntur"
+                }
+            },
+            "category": {
+                "id": 70,
+                "name": "Student Category dolores"
+            },
+            "course": {
+                "id": 69,
+                "name": "Course voluptatibus"
+            },
+            "status": {
+                "id": 66,
+                "name": "Status consequatur"
+            }
+        }
+    },
+    "paymentMethod": {
+        "id": 30,
+        "name": "Payment method illum"
+    }
+  },
+  {
+    "id": 201,
+    "semester": 7,
+    "paymentDue": "1983-02-21T20:39:36+00:00",
+    "paymentDate": "1984-09-27T15:27:10+00:00",
+    "secondReminderDate": "1986-12-19T11:35:00+00:00",
+    "lease": {
+        "id": 405,
+        "duration": 299,
+        "start": "2011-11-21T21:03:32+00:00",
+        "end": "1991-03-30T19:02:29+00:00",
+        "facility": {
+            "id": 321,
+            "address": "370 Judy Club Apt. 089\nPort Deron, MO 42055"
+        },
+        "room": {
+            "placeNumber": 86,
+            "rentrate": 893
+        },
+        "student": {
+            "id": 201,
+            "name": "Hakuna",
+            "surname": "Matata",
+            "advisor": {
+                "id": 66,
+                "name": "Darth",
+                "surname": "Vader",
+                "phone": 799977877,
+                "address": {
+                    "id": 302,
+                    "address": "47936 Wisoky Summit Apt. 661\nNorth Miltonville, AZ 85724"
+                },
+                "role": {
+                    "id": 66,
+                    "name": "Role consequuntur"
+                }
+            },
+            "category": {
+                "id": 70,
+                "name": "Student Category dolores"
+            },
+            "course": {
+                "id": 69,
+                "name": "Course voluptatibus"
+            },
+            "status": {
+                "id": 66,
+                "name": "Status consequatur"
+            }
+        }
+    },
+    "paymentMethod": {
+        "id": 30,
+        "name": "Payment method illum"
+    }
+  },
+  {
+    "id": 111,
+    "semester": 7,
+    "paymentDue": "1983-02-21T20:39:36+00:00",
+    "paymentDate": "1984-09-27T15:27:10+00:00",
+    "secondReminderDate": "1986-12-19T11:35:00+00:00",
+    "lease": {
+        "id": 405,
+        "duration": 299,
+        "start": "2011-11-21T21:03:32+00:00",
+        "end": "1991-03-30T19:02:29+00:00",
+        "facility": {
+            "id": 321,
+            "address": "370 Judy Club Apt. 089\nPort Deron, MO 42055"
+        },
+        "room": {
+            "placeNumber": 86,
+            "rentrate": 893
+        },
+        "student": {
+            "id": 201,
+            "name": "Tom ",
+            "surname": "Daniels",
+            "advisor": {
+                "id": 66,
+                "name": "Denis Ramz",
+                "surname": "Mertz",
+                "phone": 799977877,
+                "address": {
+                    "id": 302,
+                    "address": "47936 Wisoky Summit Apt. 661\nNorth Miltonville, AZ 85724"
+                },
+                "role": {
+                    "id": 66,
+                    "name": "Role consequuntur"
+                }
+            },
+            "category": {
+                "id": 70,
+                "name": "Student Category dolores"
+            },
+            "course": {
+                "id": 69,
+                "name": "Course voluptatibus"
+            },
+            "status": {
+                "id": 66,
+                "name": "Status consequatur"
+            }
+        }
+    },
+    "paymentMethod": {
+        "id": 30,
+        "name": "Payment method illum"
+    }
+  }
+]

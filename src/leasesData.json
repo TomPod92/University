@@ -1,0 +1,137 @@
+[
+  {
+    "id": 401,
+    "duration": 207,
+    "start": "1994-03-21T07:06:03+00:00",
+    "end": "1982-03-14T23:57:44+00:00",
+    "facility": {
+        "id": 334,
+        "address": "9996 Callie Cliffs Suite 802\nBradtkebury, WY 02511-6353"
+    },
+    "room": {
+        "placeNumber": 89,
+        "rentrate": 875
+    },
+    "student": {
+        "id": 210,
+        "name": "Durward",
+        "surname": "Roberts",
+        "advisor": {
+            "id": 68,
+            "name": "Meggie",
+            "surname": "Nolan",
+            "phone": 501079220,
+            "address": {
+                "id": 303,
+                "address": "5798 Goldner Roads Suite 894\nWest Alessia, OR 99956-7291"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        },
+        "category": {
+            "id": 66,
+            "name": "Student Category mollitia"
+        },
+        "course": {
+            "id": 69,
+            "name": "Course voluptatibus"
+        },
+        "status": {
+            "id": 69,
+            "name": "Status voluptatum"
+        }
+    }
+  },
+  {
+    "id": 201,
+    "duration": 207,
+    "start": "1994-03-21T07:06:03+00:00",
+    "end": "1982-03-14T23:57:44+00:00",
+    "facility": {
+        "id": 334,
+        "address": "1111 Callie Cliffs Suite 802\nBradtkebury, WY 02511-6353"
+    },
+    "room": {
+        "placeNumber": 89,
+        "rentrate": 875
+    },
+    "student": {
+        "id": 210,
+        "name": "Tom",
+        "surname": "Martes",
+        "advisor": {
+            "id": 68,
+            "name": "Meggie",
+            "surname": "Nolan",
+            "phone": 501079220,
+            "address": {
+                "id": 303,
+                "address": "5798 Goldner Roads Suite 894\nWest Alessia, OR 99956-7291"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        },
+        "category": {
+            "id": 66,
+            "name": "Student Category mollitia"
+        },
+        "course": {
+            "id": 69,
+            "name": "Course voluptatibus"
+        },
+        "status": {
+            "id": 69,
+            "name": "Status voluptatum"
+        }
+    }
+  },
+  {
+    "id": 111,
+    "duration": 207,
+    "start": "1994-03-21T07:06:03+00:00",
+    "end": "1982-03-14T23:57:44+00:00",
+    "facility": {
+        "id": 334,
+        "address": "9996 Callie Cliffs Suite 802\nBradtkebury, WY 02511-6353"
+    },
+    "room": {
+        "placeNumber": 89,
+        "rentrate": 875
+    },
+    "student": {
+        "id": 210,
+        "name": "Mark",
+        "surname": "Doe",
+        "advisor": {
+            "id": 68,
+            "name": "Meggie",
+            "surname": "Nolan",
+            "phone": 501079220,
+            "address": {
+                "id": 303,
+                "address": "5798 Goldner Roads Suite 894\nWest Alessia, OR 99956-7291"
+            },
+            "role": {
+                "id": 66,
+                "name": "Role consequuntur"
+            }
+        },
+        "category": {
+            "id": 66,
+            "name": "Student Category mollitia"
+        },
+        "course": {
+            "id": 69,
+            "name": "Course voluptatibus"
+        },
+        "status": {
+            "id": 69,
+            "name": "Status voluptatum"
+        }
+    }
+  }
+]

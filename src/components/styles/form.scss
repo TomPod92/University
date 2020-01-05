@@ -1,0 +1,42 @@
+.form {
+    width: 60%;
+    padding: 2rem 4rem;
+    margin: 2rem auto;
+    border-radius: 3px;
+    background: var(--color-background--opacity);
+    box-shadow: var(--shadow-diagonal);
+
+    &__button {
+        width: 8rem;
+        border-radius: 3px;
+        border: none;
+        padding: 1rem 2rem;
+        margin: 3rem auto;
+        text-align: center;
+        font-size: 1.5rem;
+        color: var(--color-text);
+        background: var(--color-background);
+    }
+
+    &__error {
+        padding: 1rem 2rem;
+        border-radius: 3px;
+        font-size: 1.5rem;
+        color: var(--color-background);
+        text-align: center;
+        background: rgb(206, 15, 15);
+    }
+}
+
+.inputContainer {
+    margin: 2rem auto;
+    font-size: 1.5rem;
+
+    &__label {
+        margin-right: 1rem;
+    }
+
+    &__input {
+        padding: 0.3rem 0.6rem;;
+    }
+}

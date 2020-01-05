@@ -1,0 +1,450 @@
+-----------------------------------------------------Student-----------------------------------------------------
+
+GET
+http://localhost/api/student
+http://localhost/api/student/200
+
+POST
+http://localhost/api/student
+
+{
+    "name": "testName",
+    "surname": "testSurname",
+    "advisor": 70,
+    "category": 67,
+    "course": 66,
+    "status": 69,
+    "nextOfKin": [{"id": 46, "relationship":"sister"}, {"id": 47, "relationship": "brother"}]
+}
+
+PUT
+http://localhost/api/student
+
+{
+    "id": 200,
+    "name": "testName",
+    "surname": "testSurname",
+    "advisor": 70,
+    "category": 67,
+    "course": 66,
+    "status": 69,
+    "nextOfKin": [{"id": 46, "relationship":"sister"}, {"id": 47, "relationship": "brother"}]
+}
+
+DELETE
+http://localhost/api/student/200
+
+----------------------------------------------------Courses----------------------------------------------------
+
+GET
+http://localhost/api/student/70
+http://localhost/api/student
+
+POST
+http://localhost/api/courses
+
+{
+    "name": "test"
+}
+
+PUT
+http://localhost/api/courses
+
+{
+    "id": 71,
+    "name": "test71"
+}
+
+DELETE
+http://localhost/api/courses/71
+
+--------------------------------------------------Staff role--------------------------------------------------
+
+GETl
+http://localhost/api/staff-role
+http://localhost/api/staff-role/66
+
+POST
+http://localhost/api/staff-role
+
+{
+    "name": "test"
+}
+
+PUT
+http://localhost/api/staff-role
+
+{
+    "id": 66,
+    "name": "test71"
+}
+
+DELETE
+http://localhost/api/staff-role/71
+
+------------------------------------------------Residential Status------------------------------------------------
+
+GET
+http://localhost/api/residential-status
+http://localhost/api/residential-status/66
+
+POST
+http://localhost/api/residential-status
+
+{
+    "name": "test"
+}
+
+PUT
+http://localhost/api/residential-status
+
+{
+    "id": 66,
+    "name": "test71"
+}
+
+DELETE
+http://localhost/api/residential-status/71
+
+------------------------------------------------------Places------------------------------------------------------
+
+GET
+http://localhost/api/places
+http://localhost/api/places/90
+
+POST
+http://localhost/api/places
+
+{
+    "rentrate": 123
+}
+
+PUT
+http://localhost/api/places
+
+{
+    "placeNumber": 91,
+    "rentrate": 123123
+}
+
+DELETE
+http://localhost/api/places/91
+
+-----------------------------------Payment method-----------------------------------
+
+GET
+http://localhost/api/payment-method
+http://localhost/api/payment-method/26
+
+POST
+http://localhost/api/payment-method
+
+{
+    "name": "test"
+}
+
+PUT
+http://localhost/api/payment-method
+
+{
+    "id": 26,
+    "name": "test71"
+}
+
+DELETE
+http://localhost/api/payment-method/71
+
+--------------------------------------------------------Next of kin--------------------------------------------------------
+
+GET
+http://localhost/api/next-of-kin
+http://localhost/api/next-of-kin/46
+
+POST
+http://localhost/api/next-of-kin
+{
+    "name": "TestName",
+    "surname": "TestSurname",
+    "phone": 123,
+    "address": 306
+}
+
+PUT
+http://localhost/api/next-of-kin
+{
+    "id": 61,
+    "name": "TestName",
+    "surname": "TestSurname",
+    "phone": 123,
+    "address": 306
+}
+
+DELETE
+http://localhost/api/next-of-kin/61
+
+-----------------------------Student categories-----------------------------
+
+GET
+http://localhost/api/student-categories
+http://localhost/api/student-categories/66
+
+POST
+http://localhost/api/student-categories
+
+{
+    "name": "test"
+}
+
+PUT
+http://localhost/api/student-categories
+
+{
+    "id": 91,
+    "name": "test91"
+}
+
+DELETE
+http://localhost/api/student-categories/91
+
+-----------------------------------------------------------------Staff-----------------------------------------------------------------
+
+GET
+http://localhost/api/staff
+http://localhost/api/staff/66
+
+POST
+http://localhost/api/staff
+
+{
+    "name": "TestName",
+    "surname": "TestName",
+    "phone": 123,
+    "address": 302,
+    "role": 67
+}
+
+PUT
+http://localhost/api/staff
+
+{
+    "id": 71,
+    "name": "testName",
+    "surname": "testName",
+    "phone": 123,
+    "address": 302,
+    "role": 67
+}
+
+DELETE
+http://localhost/api/staff/71
+
+------------------------------------------------------Location------------------------------------------------------
+
+GET
+http://localhost/api/location
+http://localhost/api/location/301
+
+POST
+http://localhost/api/location
+{
+    "address": "Location 123/3"
+}
+
+PUT
+http://localhost/api/location
+{
+    "id": 341,
+    "name": "Test Location 3/3"
+}
+
+DELETE
+http://localhost/api/location/341
+
+-------------------------------------------------------Leases-------------------------------------------------------
+
+GET
+http://localhost/api/leases
+http://localhost/api/leases/402
+
+POST
+http://localhost/api/leases
+{
+    "duration": 1,
+    "start": "2020-01-01T05:01:35+00:00",
+    "end": "2020-01-01T15:02:10+00:00",
+    "facility": 338,
+    "room": 83,
+    "student": 197
+}
+
+PUT
+http://localhost/api/leases
+{
+    "id": 501,
+    "duration": 100,
+    "start": "1999-01-01T05:01:35+00:00",
+    "end": "1999-01-01T15:02:10+00:00",
+    "facility": 338,
+    "room": 83,
+    "student": 197
+}
+
+DELETE
+http://localhost/api/leases/501
+
+-------------------------------------------------Invoices-------------------------------------------------
+
+GET
+http://localhost/api/invoices
+http://localhost/api/invoices/403
+
+POST
+http://localhost/api/invoices
+{
+    "semester": 100,
+    "paymentDue": "1999-01-01T05:01:35+00:00",
+    "paymentDate": "1999-01-01T15:02:10+00:00",
+    "secondReminderDate": "1999-01-01T05:01:35+00:00",
+    "lease": 410,
+    "paymentMethod": 30
+}
+
+PUT
+{
+    "id": 501,
+    "semester": 123,
+    "paymentDue": "2020-01-01T05:01:35+00:00",
+    "paymentDate": "2020-01-01T15:02:10+00:00",
+    "secondReminderDate": "1999-01-01T05:01:35+00:00",
+    "lease": 410,
+    "paymentMethod": 30
+}
+
+DELETE
+http://localhost/api/invoices/501
+
+-----------------------------------------------------Inspections-----------------------------------------------------
+
+GET
+http://localhost/api/inspections
+http://localhost/api/inspections/61
+
+POST
+http://localhost/api/inspections
+{
+    "date": "2020-01-01",
+    "wellMaintained": "false",
+    "comments": "Comments test",
+    "place": 88,
+    "staff": 70
+}
+
+PUT
+http://localhost/api/inspections
+{
+    "id": 76,
+    "date": "1999-01-01",
+    "wellMaintained": "true",
+    "comments": "Comments test 123",
+    "place": 88,
+    "staff": 70
+}
+
+DELETE
+http://localhost/api/inspections/76
+
+------------------------------------------------------Apartments------------------------------------------------------
+
+GET
+http://localhost/api/apartments
+http://localhost/api/apartments/100
+
+POST
+http://localhost/api/apartments
+{
+        "bedrooms": 300,
+        "address": 322
+}
+
+PUT
+http://localhost/api/apartments
+{
+        "id": 111,
+        "bedrooms": 300,
+        "address": 322
+}
+
+DELETE
+http://localhost/api/apartments/111
+
+------------------------------------------------------Apartments Room------------------------------------------------------
+
+GET
+http://localhost/api/apartments-room
+http://localhost/api/apartments-room/1
+
+POST
+http://localhost/api/apartments-room
+{
+        "apartment": 101,
+        "place": 81
+}
+
+PUT
+http://localhost/api/apartments-room
+
+{
+        "id": 1,
+        "apartment": 102,
+        "place": 82
+}
+
+DELETE
+http://localhost/api/apartments-room/1
+
+------------------------------------------------------Hall of residence------------------------------------------------------
+
+GET
+http://localhost/api/hall-of-residence
+http://localhost/api/hall-of-residence/101
+
+POST
+http://localhost/api/hall-of-residence
+{
+        "address": 333,
+        "manager": 70
+}
+
+PUT
+http://localhost/api/hall-of-residence
+{
+		"id": 111,
+        "address": 331,
+        "manager": 69
+}
+
+DELETE
+http://localhost/api/hall-of-residence/111
+
+------------------------------------------------------Hall of residence room------------------------------------------------------
+
+GET
+http://localhost/api/hall-of-residence-room
+http://localhost/api/hall-of-residence-room/71
+
+POST
+http://localhost/api/hall-of-residence-room
+{
+    "hall": 110,
+    "place": 89
+}
+PUT
+http://localhost/api/hall-of-residence-room
+{
+    "id": 81,
+    "hall": 109,
+    "place": 88
+}
+
+DELETE
+http://localhost/api/hall-of-residence-room/81
